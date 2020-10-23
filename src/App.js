@@ -75,24 +75,4 @@ const app = props => { // now we don't need state
 }
 
 export default app;
-/*
-state = {
-  persons: [
-    {name: 'Hamza', age: 25},
-    {name: 'Ham', age:22},
-    {name:'Cat',age:3}
-  ],
-  otherState: 'other value'
-}
 
-switchNameHandler = () =>{
-  //alert('This has been clicked');
-  //console.log('Clicked !!');
-  // Dont do this ===> this.state.persons[0].name = 'Nazi';
-  this.setState({persons: [
-    {name: 'Hamza', age: 25},
-    {name: 'Ham', age:22},
-    {name:'Persian Cat',age:50}
-  ]})
-}
-*/
